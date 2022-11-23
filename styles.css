@@ -1,0 +1,242 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #463535;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.Expanding-texting {
+  padding: 14px;
+  margin-left: 100px;
+  background-color: rgb(255, 240, 240);
+  color: rgba(255, 255, 255, 0.712);
+  font-size: large;
+  cursor: grabbing;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+  color: rgba(235, 62, 241, 0.456);
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.card::before {
+  content: "";
+  width: 60px;
+  height: 300px;
+}
+
+.card-image {
+  background-color: rgb(34, 21, 21);
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: 5px;
+  border-radius: 15px 15px 15px 15px;
+  object-fit: cover;
+}
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 10px;
+  font-size: 15px;
+}
+.card a {
+  background-color: rgb(0, 81, 83);
+  border-radius: 0rem;
+  color: rgb(211, 192, 192);
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 25px 50px;
+  text-decoration: none;
+  position: flex;
+}
+
+.card:hover {
+  background-color: rgb(52, 114, 73);
+  cursor: grab;
+  transform: scale(1.03);
+  transition: all 3 ease;
+}
+/*Images of the the gallery in the front.*/
+.photo-1 {
+  background-image: url(tribute1.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+.photo-2 {
+  background-image: url(Comment-box.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+.photo-3 {
+  background-image: url(fruit-shop.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+.photo-4 {
+  background-image: url(web-portfolio.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+.photo-5 {
+  background-image: url(features.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.desc-more {
+  display: none;
+}
+
+.read-more-btn {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.desc.show-more .desc-more {
+  display: inline;
+}
+
+.desc.show-more .dots {
+  display: none;
+}
+.desc-2 {
+  font-size: 100px;
+}
+
+.desc-more-2 {
+  display: none;
+}
+
+.read-more-btn-2 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.desc-2.show-more-2 .desc-more-2 {
+  display: inline;
+}
+
+.desc-2.show-more-2 .dots-2 {
+  display: none;
+}
+
+.desc-more-3 {
+  display: none;
+}
+
+.read-more-btn-3 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.desc-3.show-more-3 .desc-more-3 {
+  display: inline;
+}
+
+.desc-3.show-more-3.dots-3 {
+  display: none;
+}
+
+.desc-more-4 {
+  display: none;
+}
+
+.read-more-btn-4 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.desc-4.show-more-4 .desc-more-4 {
+  display: inline;
+}
+
+.desc-4.show-more-4.dots-4 {
+  display: none;
+}
+
+.desc-more-5 {
+  display: none;
+}
+
+.read-more-btn-5 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  border-radius: 4rem;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.desc-5.show-more-5 .desc-more-5 {
+  display: inline;
+}
+
+.desc-5.show-more-5.dots-5 {
+  display: none;
+}
