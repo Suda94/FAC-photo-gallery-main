@@ -26,6 +26,7 @@ body {
   color: rgba(235, 62, 241, 0.456);
   flex-wrap: wrap;
   position: relative;
+  max-width: 100%;
 }
 
 .container {
@@ -80,35 +81,35 @@ body {
 }
 /*Images of the the gallery in the front.*/
 .photo-1 {
-  background-image: url(tribute1.svg);
+  background-image: url(hobby_page.jpg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
 }
 
 .photo-2 {
-  background-image: url(Comment-box.svg);
+  background-image: url(comment_box.jpg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
 }
 
 .photo-3 {
-  background-image: url(fruit-shop.svg);
+  background-image: url(movie_data.jpg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
 }
 
 .photo-4 {
-  background-image: url(web-portfolio.svg);
+  background-image: url(porfolio_page.jpg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
 }
 
 .photo-5 {
-  background-image: url(features.svg);
+  background-image: url(to_do_List.jpg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
